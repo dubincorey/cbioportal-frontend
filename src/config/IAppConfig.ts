@@ -137,7 +137,6 @@ export interface IServerConfig {
     query_sets_of_genes: string | null;
     skin_quick_select_buttons: string | null;
     base_url: string | null;
-    user_email_address: string; //Property to be completely replaced by user_display_name when backend PR #9986 is merged
     user_display_name: string;
     sessionServiceEnabled: boolean;
     session_url_length_threshold: string;
@@ -158,6 +157,7 @@ export interface IServerConfig {
     enable_treatment_groups: boolean;
     referenceGenomeVersion: string;
     skin_home_page_show_unauthorized_studies: boolean;
+    skin_home_page_show_reference_genome: string;
     skin_home_page_unauthorized_studies_global_message: string;
     skin_mutation_table_namespace_column_show_by_default: boolean;
     skin_patient_view_mutation_table_columns_show_on_init: string;
